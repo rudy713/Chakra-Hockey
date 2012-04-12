@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C2C58C71537049A00F18294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C58C61537049A00F18294 /* ViewController.m */; };
+		6C2C58CD15370A2800F18294 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2C58CC15370A2800F18294 /* QuartzCore.framework */; };
+		6C2C58D015371C2500F18294 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2C58CF15371C2500F18294 /* AudioToolbox.framework */; };
+		6C2C58D6153724CB00F18294 /* gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C2C58D5153724CB00F18294 /* gong.mp3 */; };
+		6C2C58DC1537276100F18294 /* Bounce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C2C58DB1537276100F18294 /* Bounce.mp3 */; };
+		6C2F0CC8152CC0ED007FD644 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C2F0CC7152CC0ED007FD644 /* icon.png */; };
+		6CA23F5B152DB0E500261F4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA23F5A152DB0E500261F4F /* Default.png */; };
+		6CA23F5E152DB34200261F4F /* logo_anahataChakra.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA23F5D152DB34200261F4F /* logo_anahataChakra.png */; };
+		6CAC8D55152D08AD00CEDA5E /* TirangaPuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAC8D54152D08AD00CEDA5E /* TirangaPuck.m */; };
+		6CF544FF152BF0E400FE7AC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF544FE152BF0E400FE7AC2 /* UIKit.framework */; };
+		6CF54501152BF0E400FE7AC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF54500152BF0E400FE7AC2 /* Foundation.framework */; };
+		6CF54503152BF0E400FE7AC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF54502152BF0E400FE7AC2 /* CoreGraphics.framework */; };
+		6CF54509152BF0E400FE7AC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF54507152BF0E400FE7AC2 /* InfoPlist.strings */; };
+		6CF5450B152BF0E400FE7AC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF5450A152BF0E400FE7AC2 /* main.m */; };
+		6CF5450F152BF0E400FE7AC2 /* TirangaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF5450E152BF0E400FE7AC2 /* TirangaAppDelegate.m */; };
+		6CF54517152BF23C00FE7AC2 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF54516152BF23C00FE7AC2 /* View.m */; };
+		6CF9A4BF152CD9AF002904DE /* logo_indiaFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF9A4BE152CD9AF002904DE /* logo_indiaFlag.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C2C58C51537049A00F18294 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C2C58C61537049A00F18294 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C2C58CC15370A2800F18294 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C2C58CF15371C2500F18294 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6C2C58D5153724CB00F18294 /* gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gong.mp3; path = ../../../../../Downloads/gong.mp3; sourceTree = "<group>"; };
+		6C2C58DB1537276100F18294 /* Bounce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bounce.mp3; path = ../../../../../.Trash/Bounce.mp3; sourceTree = "<group>"; };
+		6C2F0CC7152CC0ED007FD644 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6CA23F5A152DB0E500261F4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6CA23F5D152DB34200261F4F /* logo_anahataChakra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_anahataChakra.png; sourceTree = "<group>"; };
+		6CAC8D53152D08AD00CEDA5E /* TirangaPuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TirangaPuck.h; sourceTree = "<group>"; };
+		6CAC8D54152D08AD00CEDA5E /* TirangaPuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TirangaPuck.m; sourceTree = "<group>"; };
+		6CF544FA152BF0E400FE7AC2 /* Tiranga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiranga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF544FE152BF0E400FE7AC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CF54500152BF0E400FE7AC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CF54502152BF0E400FE7AC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CF54506152BF0E400FE7AC2 /* Tiranga-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tiranga-Info.plist"; sourceTree = "<group>"; };
+		6CF54508152BF0E400FE7AC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CF5450A152BF0E400FE7AC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CF5450C152BF0E400FE7AC2 /* Tiranga-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tiranga-Prefix.pch"; sourceTree = "<group>"; };
+		6CF5450D152BF0E400FE7AC2 /* TirangaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TirangaAppDelegate.h; sourceTree = "<group>"; };
+		6CF5450E152BF0E400FE7AC2 /* TirangaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TirangaAppDelegate.m; sourceTree = "<group>"; };
+		6CF54515152BF23C00FE7AC2 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		6CF54516152BF23C00FE7AC2 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		6CF9A4BE152CD9AF002904DE /* logo_indiaFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_indiaFlag.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CF544F7152BF0E400FE7AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2C58D015371C2500F18294 /* AudioToolbox.framework in Frameworks */,
+				6C2C58CD15370A2800F18294 /* QuartzCore.framework in Frameworks */,
+				6CF544FF152BF0E400FE7AC2 /* UIKit.framework in Frameworks */,
+				6CF54501152BF0E400FE7AC2 /* Foundation.framework in Frameworks */,
+				6CF54503152BF0E400FE7AC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CF544EF152BF0E300FE7AC2 = {
+			isa = PBXGroup;
+			children = (
+				6CF54504152BF0E400FE7AC2 /* Tiranga */,
+				6CF544FD152BF0E400FE7AC2 /* Frameworks */,
+				6CF544FB152BF0E400FE7AC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF544FB152BF0E400FE7AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CF544FA152BF0E400FE7AC2 /* Tiranga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CF544FD152BF0E400FE7AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C58CF15371C2500F18294 /* AudioToolbox.framework */,
+				6C2C58CC15370A2800F18294 /* QuartzCore.framework */,
+				6CF544FE152BF0E400FE7AC2 /* UIKit.framework */,
+				6CF54500152BF0E400FE7AC2 /* Foundation.framework */,
+				6CF54502152BF0E400FE7AC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CF54504152BF0E400FE7AC2 /* Tiranga */ = {
+			isa = PBXGroup;
+			children = (
+				6CA23F5D152DB34200261F4F /* logo_anahataChakra.png */,
+				6CA23F5A152DB0E500261F4F /* Default.png */,
+				6CF9A4BE152CD9AF002904DE /* logo_indiaFlag.png */,
+				6C2F0CC7152CC0ED007FD644 /* icon.png */,
+				6CF5450D152BF0E400FE7AC2 /* TirangaAppDelegate.h */,
+				6CF5450E152BF0E400FE7AC2 /* TirangaAppDelegate.m */,
+				6CF54515152BF23C00FE7AC2 /* View.h */,
+				6CF54516152BF23C00FE7AC2 /* View.m */,
+				6C2C58C51537049A00F18294 /* ViewController.h */,
+				6C2C58C61537049A00F18294 /* ViewController.m */,
+				6CAC8D53152D08AD00CEDA5E /* TirangaPuck.h */,
+				6CAC8D54152D08AD00CEDA5E /* TirangaPuck.m */,
+				6CF54505152BF0E400FE7AC2 /* Supporting Files */,
+			);
+			path = Tiranga;
+			sourceTree = "<group>";
+		};
+		6CF54505152BF0E400FE7AC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C58DB1537276100F18294 /* Bounce.mp3 */,
+				6C2C58D5153724CB00F18294 /* gong.mp3 */,
+				6CF54506152BF0E400FE7AC2 /* Tiranga-Info.plist */,
+				6CF54507152BF0E400FE7AC2 /* InfoPlist.strings */,
+				6CF5450A152BF0E400FE7AC2 /* main.m */,
+				6CF5450C152BF0E400FE7AC2 /* Tiranga-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CF544F9152BF0E400FE7AC2 /* Tiranga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF54512152BF0E400FE7AC2 /* Build configuration list for PBXNativeTarget "Tiranga" */;
+			buildPhases = (
+				6CF544F6152BF0E400FE7AC2 /* Sources */,
+				6CF544F7152BF0E400FE7AC2 /* Frameworks */,
+				6CF544F8152BF0E400FE7AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tiranga;
+			productName = Flag;
+			productReference = 6CF544FA152BF0E400FE7AC2 /* Tiranga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CF544F1152BF0E300FE7AC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Tiranga;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "rudypospisil@gmail.com";
+			};
+			buildConfigurationList = 6CF544F4152BF0E300FE7AC2 /* Build configuration list for PBXProject "Tiranga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CF544EF152BF0E300FE7AC2;
+			productRefGroup = 6CF544FB152BF0E400FE7AC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CF544F9152BF0E400FE7AC2 /* Tiranga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CF544F8152BF0E400FE7AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF54509152BF0E400FE7AC2 /* InfoPlist.strings in Resources */,
+				6C2F0CC8152CC0ED007FD644 /* icon.png in Resources */,
+				6CF9A4BF152CD9AF002904DE /* logo_indiaFlag.png in Resources */,
+				6CA23F5B152DB0E500261F4F /* Default.png in Resources */,
+				6CA23F5E152DB34200261F4F /* logo_anahataChakra.png in Resources */,
+				6C2C58D6153724CB00F18294 /* gong.mp3 in Resources */,
+				6C2C58DC1537276100F18294 /* Bounce.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CF544F6152BF0E400FE7AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF5450B152BF0E400FE7AC2 /* main.m in Sources */,
+				6CF5450F152BF0E400FE7AC2 /* TirangaAppDelegate.m in Sources */,
+				6CF54517152BF23C00FE7AC2 /* View.m in Sources */,
+				6CAC8D55152D08AD00CEDA5E /* TirangaPuck.m in Sources */,
+				6C2C58C71537049A00F18294 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CF54507152BF0E400FE7AC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF54508152BF0E400FE7AC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CF54510152BF0E400FE7AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CF54511152BF0E400FE7AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CF54513152BF0E400FE7AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tiranga/Tiranga-Prefix.pch";
+				INFOPLIST_FILE = "Tiranga/Tiranga-Info.plist";
+				PRODUCT_NAME = Tiranga;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CF54514152BF0E400FE7AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tiranga/Tiranga-Prefix.pch";
+				INFOPLIST_FILE = "Tiranga/Tiranga-Info.plist";
+				PRODUCT_NAME = Tiranga;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CF544F4152BF0E300FE7AC2 /* Build configuration list for PBXProject "Tiranga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF54510152BF0E400FE7AC2 /* Debug */,
+				6CF54511152BF0E400FE7AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF54512152BF0E400FE7AC2 /* Build configuration list for PBXNativeTarget "Tiranga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF54513152BF0E400FE7AC2 /* Debug */,
+				6CF54514152BF0E400FE7AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CF544F1152BF0E300FE7AC2 /* Project object */;
+}
